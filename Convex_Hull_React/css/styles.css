@@ -1,0 +1,18 @@
+#canvas {
+    width: 900px;
+    height: 650px; 
+    margin: 20px; 
+    border:  dashed rgb(17, 5, 5); 
+}
+table {
+    margin: auto;
+}
+/* Styling for Play button */
+.play-btn {
+    background-image: linear-gradient(to bottom right, #34d399, #3b82f6);
+}
+
+/* Styling for Pause button */
+.play-btn.paused {
+    background-image: linear-gradient(to bottom right, #ef4444, #d94646);
+}
